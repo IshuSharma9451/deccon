@@ -5,9 +5,9 @@ import { useSelector} from 'react-redux';
 // import { searchWord } from '../redux/actions/searchAction';
 
 const Display = () => {
-    const selectLoading = state => state.loading;
+    
 const selectData = state => state.searchReducer.data;
-const selectError = state => state.error;
+
 
 
 // const loading = useSelector(selectLoading);

@@ -5,9 +5,9 @@ import { useSelector,useDispatch } from 'react-redux'
 import { addToHistory } from '../redux/actions/historyAction'
 const Home = () => {
     const [word,setWord]=useState('')
-    const selectLoading = state => state.loading;
+   
 const selectData = state => state.data;
-const selectError = state => state.error;
+
 
 
 const data = useSelector(selectData);
