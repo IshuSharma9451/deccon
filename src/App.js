@@ -1,9 +1,9 @@
 //App.js
 import React from "react";
 import Navbar from "./Components/Navbar";
-import Home from "./Components/Home";
-import Display from "./Components/Display";
-import History from "./Components/History";
+// import Home from "./Components/Home";
+// import Display from "./Components/Display";
+// import History from "./Components/History";
 
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import "./App.css";

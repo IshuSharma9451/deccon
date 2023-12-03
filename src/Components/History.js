@@ -2,8 +2,8 @@
 import React,{useEffect} from 'react'
 import { useSelector,useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { useParams } from 'react-router-dom'
-import { searchWord } from '../redux/actions/searchAction'
+// import { useParams } from 'react-router-dom'
+// import { searchWord } from '../redux/actions/searchAction'
 
 const History = () => {
     const searchHist=useSelector(state=>state.historyReducer.searchHistory)

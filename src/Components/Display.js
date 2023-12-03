@@ -1,8 +1,8 @@
 //Display.js
 import React,{useEffect} from 'react'
 import { useSelector,useDispatch} from 'react-redux';
-import { useParams } from 'react-router-dom';
-import { searchWord } from '../redux/actions/searchAction';
+// import { useParams } from 'react-router-dom';
+// import { searchWord } from '../redux/actions/searchAction';
 
 const Display = () => {
     const selectLoading = state => state.loading;
