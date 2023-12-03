@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar";
 // import Display from "./Components/Display";
 // import History from "./Components/History";
 
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import HomePage from "./pages/HomePage";
 import HistoryPage from "./pages/HistoryPage";

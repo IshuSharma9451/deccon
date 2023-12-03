@@ -1,6 +1,6 @@
 //Display.js
-import React,{useEffect} from 'react'
-import { useSelector,useDispatch} from 'react-redux';
+import React from 'react'
+import { useSelector} from 'react-redux';
 // import { useParams } from 'react-router-dom';
 // import { searchWord } from '../redux/actions/searchAction';
 
@@ -10,9 +10,9 @@ const selectData = state => state.searchReducer.data;
 const selectError = state => state.error;
 
 
-const loading = useSelector(selectLoading);
+// const loading = useSelector(selectLoading);
 const data = useSelector(selectData);
-const error = useSelector(selectError);
+// const error = useSelector(selectError);
 // const {loading,data,error}=useSelector(state=>state)
   console.log(data);
   return (
